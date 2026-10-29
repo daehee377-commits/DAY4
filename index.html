@@ -12,6 +12,9 @@
   p { margin: 0; color: #9aa4d6; }
   a.btn { display: inline-block; padding: 14px 32px; border-radius: 999px; background: #3a46c8; color: #fff;
     text-decoration: none; font-size: 18px; font-weight: 600; border: 1px solid #7a86ff; transition: background .2s, transform .2s; }
+  .btns { display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; }
+  a.btn.jeju { background: #e07b1a; border-color: #ffb066; }
+  a.btn.jeju:hover { background: #f59232; }
   a.btn:hover { background: #5563f0; transform: translateY(-2px); }
 </style>
 </head>
@@ -19,7 +22,10 @@
 <main>
   <h1>🚀 우주 탐험</h1>
   <p>three.js로 만든 태양계와 우주선을 만나보세요.</p>
-  <a class="btn" href="space.html">우주 장면 실행하기</a>
+  <div class="btns">
+    <a class="btn" href="space.html">우주 장면 실행하기</a>
+    <a class="btn jeju" href="jeju.html">제주도 장면 실행하기</a>
+  </div>
 </main>
 </body>
 </html>
